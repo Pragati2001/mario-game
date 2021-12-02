@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mario Game</title>
+</head>
+<body>
+    <h1 style="text-align: center;">MARIO GAME 
+        <span>&#128526</span>
+    </h1>
+    <div style="text-align: center;">
+        <h2>Rules and instructions</h2>
+        <p style="margin-left: 450px; height: 50px; width: 700px;">Mario have to reach to the Princess to complete the level.Use Arrow Right key to move mario in to the right direction</li>
+            Use Arrow Left key to move mario in to the left direction
+            Only after completing this level you can go to the next level
+            You can restart Level if game is over in between any level</p>
+    </div>
+    <canvas id="canvas" height="500px" width="800px" style="background-color: rgb(167, 223, 255); margin-left: 400px;"></canvas>
+    <div style="display: none;">
+        <img id="person" src="mario3.png">
+        <img id="mushroom" src="mushroom2.png">
+        <img id="princess" src="princess1.png">
+    </div>
+    <button id="next_level" style="margin-left: 800px; visibility: hidden;">next_level</button>
+    <br>
+    <button id="restart_level"style="margin-left: 800px; visibility: hidden;" >Restart</button>
+    <script src="script.js"></script>
+</body>
+</html>
